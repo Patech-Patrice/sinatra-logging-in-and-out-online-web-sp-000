@@ -4,6 +4,6 @@ class Helpers
   end
 
   def self.is_logged_in?(session)
-  !! session.has_key [:user_id]
+  !!session.has_key [:user_id]
   end
 end
